@@ -16,9 +16,9 @@ public class A854 {
             case "freeze":
                 if (tRoom > tCond) {
                     pw.println(tCond);
-                } else {
+                } else
                     pw.println(tRoom);
-                }
+
                 break;
 
             case "heat":
