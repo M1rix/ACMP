@@ -18,7 +18,7 @@ public class A62 {
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j <8 ; j++) {
                 if(str.charAt(1)==num[i]){
-                    if(str.charAt(0)==let[j]){
+                    if(str.charAt(0)==num[j]){
                         if(((j+1)+(i+1))%2==0){
                             pw.println(bc);
                         }else
