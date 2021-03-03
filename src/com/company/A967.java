@@ -1,5 +1,5 @@
 package com.company;
-
+//https://acmp.ru/index.asp?main=task&id_task=967
 import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -24,7 +24,7 @@ public class A967 {
         pw.flush();
     }
 
-    public static long s(long x, int k) {
+    public static long s(long x, int k) { //method for finding sum of numbers 'X' on his numerical system 'k'
         long sum = 0;
         while (x != 1) {
             sum += x % k;
