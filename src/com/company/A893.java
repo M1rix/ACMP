@@ -14,9 +14,7 @@ public class A893 {
             pw.println(n * (n - 1) * (n - 2));
         }
         pw.flush();
-
     }
-
 }
 //    static long factorial(long n ){
 //        long fact =0;
