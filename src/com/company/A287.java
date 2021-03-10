@@ -13,6 +13,10 @@ public class A287 {
         int mLengthOfSubstring = sc.nextInt();
         String s = sc.next();
         int count = 0;
+
+        // основная идея
+        // стрингни бошидан -1 чар килиб mLengthOfSubstring'га проверка килиб счётчикни оширишь
+
         for (int i = 0; i < nLengthOfString; i++) {
             for (int j = i; j <mLengthOfSubstring ; j++) {
                 if (s.contains(s.substring(j,mLengthOfSubstring)))
