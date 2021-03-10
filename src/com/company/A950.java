@@ -24,7 +24,7 @@ public class A950 {
         if (q == 0) {
             pw.println(l[s.length() - 1]);
         } else {
-            var v = s.split("1");
+            String[] v = s.split("1");
             for (int i = 0; i < v.length; i++) {
                 pw.print(l[v[i].length()]);
             }

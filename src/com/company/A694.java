@@ -12,7 +12,7 @@ public class A694 {
 
         for (int i = 0; i < n*2-1; i+=2) {
             String s = sc.next();
-            var c = s.split(" ");
+            String[] c = s.split(" ");
             v[i] = Integer.valueOf(c[0]);
             v[i+1] = Integer.valueOf(c[1]);
         }
