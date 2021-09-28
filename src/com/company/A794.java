@@ -14,12 +14,5 @@ public class A794 {
         long min = (long) (lvl) / k + Math.min(lvl, k - 1);
         pw.println(min * players);
         pw.flush();
-
-        for (int i = 1; i <lvl ; i++) {
-
-        }
-
-
-
     }
 }
